@@ -17,7 +17,7 @@ Read the training data into a data table.
 
 ```{r}
 require(data.table)
-setInternet2(TRUE)
+setInternet2(use=TRUE)
 url <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
 D <- fread(url)
 ```
